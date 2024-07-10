@@ -145,6 +145,123 @@ nav ion-icon{
     width: 400px;
     margin-left: 10px;
 }
+.content4{
+    display: flex;
+    margin-top: 100px;
+}
+.content4 img{
+    height: 350px;
+    width: 600px;
+    margin-right: 20px;
+}
+#p41{
+    font-size: 30px;
+    font-weight:lighter;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+#p42{
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+.content4 button{
+    height: 50px;
+    width: 150px;
+    margin-left: 250px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.content5{
+    display: flex;
+    margin-top: 100px;
+}
+.content5 img{
+    height: 350px;
+    width: 600px;
+    margin-right: 20px;
+}
+#p51{
+    font-size: 30px;
+    font-weight:lighter;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+#p52{
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+.content5 button{
+    height: 50px;
+    width: 150px;
+    margin-left: 250px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.content6{
+    margin-top: 50px;
+   
+}
+.content6 h6{
+    margin-left: 550px;
+    font-size: 10px;
+}
+.content6 p{
+    margin-left: 500px;
+    font-size: 30px;
+}
+.content6 .boxs{
+    display: flex;
+}
+.content6 .boxs .content61{
+    height: 400px;
+    width: 300px;
+    margin-left: 10px;
+}
+.content61 img{
+    height: 300px;
+    width: 300px;
+}
+.content61 p{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content7{
+    margin-top: 30px;
+    height: 200px;
+    display: flex;
+}
+.content7 img{
+    height: 50px;
+    margin-left: 50px;
+}
+#h{
+    margin-left: 30px;
+    font-size: 16px;
+}
+.content71 p{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.content81{
+    display: flex;
+}
+.content811 img{
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+}
+.content82{
+    background-color: rgb(246, 220, 198);
+    width: 500px;
+}
 footer{
     height: 400px;
     width: 100%;
