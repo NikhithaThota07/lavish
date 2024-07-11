@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .rain p{
+      background-color: rgb(236, 151, 46);
+      height: 30px;
+      width: 80px;
+      border-radius: 28px;
+      padding: 6px 14px;
+      line-height: 100%;
+      font-size: 18px;
+      display: inline-block;
+    }
+    .rain1{
+        font-size: 400%;
+        font-family: Fraunces, sans-serif;
+       
+    }
+    .dot1{
+    background-color: rgba(125, 6, 236, 0.3);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 120px;
+    margin-top: -25px;
+    }
+    .sun p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .jan p{
+        margin-left: 130px;
+        margin-top: -12px;
+        font-size: 15px;
+    }
+    .sun1{
+        font-size: 28px;
+    }
+    .sun2 a{
+        color: red;
+        text-decoration: none;
+    }
+    .line{
+        background-color: black;
+        width: 7%;
+        height: 2px;
+        margin-top: 15px;
+    }
+    .dot2{
+    background-color: rgba(125, 6, 236, 0.3);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 120px;
+    margin-top: -25px;
+    }
+    .man p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .jan1 p{
+        margin-left: 130px;
+        margin-top: -12px;
+        font-size: 15px;
+    }
+    .man1{
+        font-size: 22px;
+    }
+    .man2 a{
+        color: red;
+        text-decoration: none;
+    }
+    .line1{
+        background-color: black;
+        width: 7%;
+        height: 2px;
+        margin-top: 15px;
+    }
+    .dot3{
+    background-color: rgba(125, 6, 236, 0.3);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 120px;
+    margin-top: -25px;
+    }
+    .fan p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .jan2 p{
+        margin-left: 130px;
+        margin-top: -12px;
+        font-size: 15px;
+    }
+    .fan1{
+        font-size: 22px;
+    }
+    .fan2 a{
+        color: red;
+        text-decoration: none;
+    }
+    .line2{
+        background-color: black;
+        width: 7%;
+        height: 2px;
+        margin-top: 15px;
+    }
+    .function{
+        margin-left: 450px;
+        margin-top: -540px;
+    }
+    .main{
+        margin-left: 900px;
+        margin-top: -520px;
+    }
+    .dot4{
+    background-color: rgba(125, 6, 236, 0.3);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 120px;
+    margin-top: -25px;
+    }
+    .lan p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .jan3 p{
+        margin-left: 130px;
+        margin-top: -12px;
+        font-size: 15px;
+    }
+    .lan1{
+        font-size: 22px;
+    }
+    .lan2 a{
+        color: red;
+        text-decoration: none;
+    }
+    .line3{
+        background-color: black;
+        width: 7%;
+        height: 2px;
+        margin-top: 15px;
+    }
+    .mark{
+        margin-top: 50px;
+        margin-left: -900px;
+    }
+    .dot5{
+    background-color: rgba(125, 6, 236, 0.3);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 120px;
+    margin-top: -25px;
+    }
+    .van p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .jan4 p{
+        margin-left: 130px;
+        margin-top: -12px;
+        font-size: 15px;
+    }
+    .van1{
+        font-size: 22px;
+    }
+    .van2 a{
+        color: red;
+        text-decoration: none;
+    }
+    .line4{
+        background-color: black;
+        width: 7%;
+        height: 2px;
+        margin-top: 15px;
+    }
+    .pokiri{
+        margin-left: 450px;
+        margin-top: -520px;
+    }
+    .dot6{
+    background-color: rgba(125, 6, 236, 0.3);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 120px;
+    margin-top: -25px;
+    }
+    .ran p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .jan5 p{
+        margin-left: 130px;
+        margin-top: -12px;
+        font-size: 15px;
+    }
+    .ran1{
+        font-size: 22px;
+    }
+    .ran2 a{
+        color: red;
+        text-decoration: none;
+    }
+    .line5{
+        background-color: black;
+        width: 7%;
+        height: 2px;
+        margin-top: 15px;
+    }
+    .guntur{
+        margin-left: 900px;
+        margin-top: -520px;
+    }
+    button{
+    background-color: rgb(8, 8, 10);
+    color:#fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 50px;
+    margin-left: 600px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  button:hover{
+   background-color: rgb(241, 162, 14);
+  }
+  .ramp{
+    font-size: 330%;
+    padding-top: 100px;
+    margin-left: 30px;
+  }
+  .ramp p{
+    font-size: 40%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .sum{
+    background-color: rgb(243, 170, 170);
+    height: 500px;
+
+  }
+  .sir{
+    margin-left: -500px;
+  }
+  .ump{
+    margin-left: 700px;
+    margin-top: -310px;
+  }
+    
+    
+</style>
+<body>
+    <div class="rain">
+        <p>Our Blogs</p>
+    </div>
+    <div class="rain1">
+        Articles & Resources
+    </div>
+    <div class="sun">
+        <a href="lavish.html"><img src="images/blog1.jpg" height="350px" width="380px">
+        <p>Lavish Perfection</p>
+        <div class="dot1"></div>
+        <div class="jan">
+        <p>January 10,2024</p>
+    </div>
+    </div>
+    <div class="sun1">
+    <p>Behind the scenes crafting Lavish<br>perfection</p>
+    </div>
+    <div class="sun2">
+        <a href="#" >Read Articles</a>
+    </div>
+    <div class="line">
+    </div>
+    <div class="function">
+    <div class="man">
+        <img src="images/blog2.jpg" height="350px" width="380px">
+        <p>Craftsmanship</p>
+        <div class="dot2"></div>
+        <div class="jan1">
+        <p>January 10,2024</p>
+    </div>
+    </div>
+    <div class="man1">
+    <p>Every Piece tells a story of Craftsmanship<br>that transcends trends.</p>
+    </div>
+    <div class="man2">
+        <a href="#" >Read Articles</a>
+    </div>
+    <div class="line1">
+    </div>
+</div>
+<div class="main">
+    <div class="fan">
+        <img src="images/blog3.jpg" height="350px" width="380px">
+        <p>LifeStyle Luxe</p>
+        <div class="dot3"></div>
+        <div class="jan2">
+        <p>January 10,2024</p>
+    </div>
+    </div>
+    <div class="fan1">
+    <p>Where we explore the Lavish lifestyle<br>beyond jewelry.</p>
+    </div>
+    <div class="fan2">
+        <a href="#" >Read Articles</a>
+    </div>
+    <div class="line2">
+    </div>
+  <div class="mark">
+    <div class="lan">
+        <img src="images/blog4.jpg" height="350px" width="380px">
+        <p>LifeStyle Luxe</p>
+        <div class="dot4"></div>
+        <div class="jan3">
+        <p>January 10,2024</p>
+    </div>
+    </div>
+    <div class="lan1">
+    <p>Where we explore the Lavish lifestyle<br>beyond jewelry.</p>
+    </div>
+    <div class="lan2">
+        <a href="#" >Read Articles</a>
+    </div>
+    <div class="line3">
+    </div>
+</div>
+</div>
+<div class="pokiri">
+<div class="van">
+    <img src="images/blog5.jpg" height="350px" width="380px">
+    <p>LifeStyle Luxe</p>
+    <div class="dot5"></div>
+    <div class="jan4">
+    <p>January 10,2024</p>
+</div>
+</div>
+<div class="van1">
+<p>Where we explore the Lavish lifestyle<br>beyond jewelry.</p>
+</div>
+<div class="van2">
+    <a href="#" >Read Articles</a>
+</div>
+<div class="line4">
+</div>
+</div>
+</div>
+<div class="guntur">
+<div class="ran">
+    <img src="images/blog6.jpg" height="350px" width="380px">
+    <p>LifeStyle Luxe</p>
+    <div class="dot6"></div>
+    <div class="jan5">
+    <p>January 10,2024</p>
+</div>
+</div>
+<div class="ran1">
+<p>Where we explore the Lavish lifestyle<br>beyond jewelry.</p>
+</div>
+<div class="ran2">
+    <a href="#" >Read Articles</a>
+</div>
+<div class="line5">
+</div>
+</div>
+</div>
+<button id="add-btn">Events</button>
+<div class="sum">
+<div class="ramp">
+    Adorn your moments with the<br> glamour of Lavish
+    <p>Lavish your style with our curated collections designed for every occasion.<br> Click to explore and add a touch of Lavish elegance to your life.</p>
+</div>
+<div class="sir">
+<button id="add-btn">Events</button>
+</div>
+<div class="ump">
+    <img src="images/blog7.jpg" height="300px" width="500px">
+</div>
+</div>
+</body>
+</html>

@@ -250,6 +250,18 @@ nav ion-icon{
     margin-top: 10px;
     margin-right: 20px;
 }
+.content8{
+    margin-left: 50px;
+}
+#p8{
+    margin-left: 480px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.content8 h6{
+    margin-left: 500px;
+    font-size: 16px;
+}
 .content81{
     display: flex;
 }
@@ -258,9 +270,118 @@ nav ion-icon{
     width: 600px;
     margin-left: 50px;
 }
+#p82{
+    padding: 30px;
+    margin-top: 200px;
+    font-size: 25px;
+}
 .content82{
     background-color: rgb(246, 220, 198);
     width: 500px;
+}
+.content9{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+#p91{
+    margin-left: 470px;
+}
+#p92{
+   margin-left: 370px;
+   font-size: 30px; 
+}
+marquee img{
+    height: 70px;
+    margin-left: 70px;
+}
+.content10 h5{
+    margin-left: 550px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+#p10{
+    margin-left: 520px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.content101{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content102{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+}
+.content102 img{
+    height: 240px;
+    width: 250px;
+}
+.content10 button{
+    height: 50px;
+    width: 200px;
+    border: 1px black solid;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content_11{
+    height: 300px;
+    width: 100%;
+    background-color: peachpuff;
+    margin-top: 30px;
+}
+.content_11 h5{
+    padding: 30px;
+    margin-left: 500px;
+    font-size: 16px;
+}
+.content_11 #p111{
+    margin-left: 460px;
+    font-size: 30px;
+}
+#p112{
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#p113{
+    margin-left: 600px;
+}
+.content_12{
+    margin-top: 30px;
+}
+.content_12 h5{
+    margin-left: 600px;
+    font-size: 16px;
+}
+.content_12 p{
+    margin-left: 550px;
+    font-size: 20px;
+}
+.content_121{
+    display: flex;
+}
+.box1{
+    height: 400px;
+    width:380px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.box1 img{
+    height: 300px;
+    width: 380px;
+}
+#p121{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 footer{
     height: 400px;
