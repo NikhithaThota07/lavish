@@ -50,4 +50,4 @@ We welcome contributions from the community. To contribute:
 
 # Contact
 
-@Ajay - ajay@conereoustechnologies.com @Nikitha - nikhitha@conerecustechnologies.com @mahindra - mahendra@conereaustechnologies.com
+@Ajay - ajay@conereoustechnologies.com @Nikhitha - nikhitha@conerecustechnologies.com @mahindra - mahendra@conereaustechnologies.com

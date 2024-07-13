@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,95 @@
     <title>Document</title>
 </head>
 <style>
+   
+   *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+header{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    font-size: 16px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: black;
+}
+nav h5{ 
+    margin-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black;
+}
+.search{
+    height: 20px;
+    width: 205px;
+    border: 1px black solid;
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.search ion-icon{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.search input{
+    outline: none;
+    margin-left: 10px;
+}
+nav ion-icon{
+    font-size: 20px;
+   margin-top: 5px;
+}
+nav ul li a{
+    color: black;
+}
+nav h5{ 
+    margin-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black;
+}
+.search{
+    height: 20px;
+    width: 205px;
+    border: 1px black solid;
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.search ion-icon{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.search input{
+    outline: none;
+    margin-left: 10px;
+}
+nav ion-icon{
+    font-size: 20px;
+   margin-top: 5px;
+}
+
     .rain p{
       background-color: rgb(236, 151, 46);
       height: 30px;
@@ -27,7 +116,7 @@
     width: 5px;
     height: 5px;
     margin-left: 120px;
-    margin-top: -25px;
+    margin-top: -11px;
     }
     .sun p{
         font-size: 15px;
@@ -57,11 +146,11 @@
     width: 5px;
     height: 5px;
     margin-left: 120px;
-    margin-top: -25px;
+    margin-top: -11px;
     }
-    .man p{
+    .room p{
         font-size: 15px;
-        margin-left: 10px;
+     
     }
     .jan1 p{
         margin-left: 130px;
@@ -95,7 +184,7 @@
     }
     .jan2 p{
         margin-left: 130px;
-        margin-top: -12px;
+        
         font-size: 15px;
     }
     .fan1{
@@ -111,13 +200,10 @@
         height: 2px;
         margin-top: 15px;
     }
-    .function{
-        margin-left: 450px;
-        margin-top: -540px;
-    }
+   
     .main{
         margin-left: 900px;
-        margin-top: -520px;
+       margin-top: -460px;
     }
     .dot4{
     background-color: rgba(125, 6, 236, 0.3);
@@ -133,7 +219,7 @@
     }
     .jan3 p{
         margin-left: 130px;
-        margin-top: -12px;
+        
         font-size: 15px;
     }
     .lan1{
@@ -152,6 +238,7 @@
     .mark{
         margin-top: 50px;
         margin-left: -900px;
+       
     }
     .dot5{
     background-color: rgba(125, 6, 236, 0.3);
@@ -167,7 +254,7 @@
     }
     .jan4 p{
         margin-left: 130px;
-        margin-top: -12px;
+        
         font-size: 15px;
     }
     .van1{
@@ -185,7 +272,7 @@
     }
     .pokiri{
         margin-left: 450px;
-        margin-top: -520px;
+        margin-top: -445px;
     }
     .dot6{
     background-color: rgba(125, 6, 236, 0.3);
@@ -195,13 +282,21 @@
     margin-left: 120px;
     margin-top: -25px;
     }
+    .ran{
+        margin-top: 200px;
+    }
     .ran p{
         font-size: 15px;
-        margin-left: 10px;
+        font-size: 19px;
+        padding-bottom: 10px;
+        
+    }
+    .ran p{
+       margin-top: 500px;
     }
     .jan5 p{
         margin-left: 130px;
-        margin-top: -12px;
+        margin-top: -15px;
         font-size: 15px;
     }
     .ran1{
@@ -219,7 +314,7 @@
     }
     .guntur{
         margin-left: 900px;
-        margin-top: -520px;
+        margin-top: -645px;
     }
     button{
     background-color: rgb(8, 8, 10);
@@ -246,6 +341,7 @@
     margin-left: 20px;
   }
   .sum{
+    
     background-color: rgb(243, 170, 170);
     height: 500px;
 
@@ -257,10 +353,108 @@
     margin-left: 700px;
     margin-top: -310px;
   }
+  
+  
+  .google{
+    margin-top: -470px;
+    margin-left: 450px;
+  }
+  .goodday{
+    margin-top: -1150px;
+  }
+  .goodday p{
+    margin-top: -5px;
+  }
+  .soar{
+    margin-top: 700px;
+  }
+  footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .foot{
+    margin-left: 50px;
+}
+footer .foot h5{
+    font-size: 20px;
+}
+.foot11{
+    margin-top: 20px;
+}
+.foot11 p{
+    margin-top: 10px;
+}
+.foot12{
+    margin-top: 20px;
+}
+.foot12 p{
+    margin-top: 10px;
+}
+.foot13{
+    margin-top: 20px;
+}
+.foot13 p{
+    margin-top: 10px;
+}
+.foot2 h5{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.foot2 form{
+    margin-left: 50px;
+}
+form input{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    color: white;
     
-    
+}
+form button{
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+footer hr{
+    color: white;
+    margin-top: 50px;
+}
+       
 </style>
 <body>
+    <header>
+        <p>Use Code PURCHASE for $10 Off + Shipping Updates!</p>
+    </header>
+    <nav>
+        <ul><li><a href="lav1.html">shop</a></li>
+        <li><a href="categorylavish.html">category</a></li>
+        <li><a href="lavs.html">ourStory</a></li>
+        <li><a href="blog lavish.html">Blog</a></li>
+        <li><a href="lavcont.html">contact</a></li></ul>
+        <a href="index.html"><h5>Lavish</h5></a>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <ion-icon name="search-outline"></ion-icon>
+        </div>
+        <ion-icon name="cart-outline"></ion-icon>
+    </nav>
+<div class="cop">
     <div class="rain">
         <p>Our Blogs</p>
     </div>
@@ -268,7 +462,7 @@
         Articles & Resources
     </div>
     <div class="sun">
-        <a href="lavish.html"><img src="images/blog1.jpg" height="350px" width="380px">
+       <a href="lavish.html"><img src="images/blog1.jpg" height="350px" width="380px"></a>
         <p>Lavish Perfection</p>
         <div class="dot1"></div>
         <div class="jan">
@@ -283,15 +477,17 @@
     </div>
     <div class="line">
     </div>
+    <div class="google">
     <div class="function">
-    <div class="man">
-        <img src="images/blog2.jpg" height="350px" width="380px">
+    <div class="room">
+        <a href=""><img src="images/blog2.jpg" height="350px" width="380px"></a>
         <p>Craftsmanship</p>
         <div class="dot2"></div>
         <div class="jan1">
         <p>January 10,2024</p>
     </div>
     </div>
+</div>
     <div class="man1">
     <p>Every Piece tells a story of Craftsmanship<br>that transcends trends.</p>
     </div>
@@ -299,11 +495,11 @@
         <a href="#" >Read Articles</a>
     </div>
     <div class="line1">
-    </div>
+    </div> 
 </div>
 <div class="main">
     <div class="fan">
-        <img src="images/blog3.jpg" height="350px" width="380px">
+       <a href="life style.html"><img src="images/blog3.jpg" height="350px" width="380px"></a> 
         <p>LifeStyle Luxe</p>
         <div class="dot3"></div>
         <div class="jan2">
@@ -356,9 +552,12 @@
 </div>
 </div>
 </div>
+<div class="goodday">
 <div class="guntur">
 <div class="ran">
+    <div class="soar">
     <img src="images/blog6.jpg" height="350px" width="380px">
+</div>
     <p>LifeStyle Luxe</p>
     <div class="dot6"></div>
     <div class="jan5">
@@ -368,10 +567,12 @@
 <div class="ran1">
 <p>Where we explore the Lavish lifestyle<br>beyond jewelry.</p>
 </div>
+
 <div class="ran2">
     <a href="#" >Read Articles</a>
 </div>
 <div class="line5">
+</div>
 </div>
 </div>
 </div>
@@ -388,5 +589,66 @@
     <img src="images/blog7.jpg" height="300px" width="500px">
 </div>
 </div>
+</div>
+
+<footer>
+    <div class="foot">
+        <div class="foot11">
+            <h5>Where abouts</h5>
+            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+        </div>
+        <div class="foot12">
+            <h5>Contact</h5>
+            <p>(808) 555-0111</p>
+        </div>
+        <div class="foot13">
+            <h5>Mailbox</h5>
+            <p>hello@lavishglamour.io</p>
+        </div>
+    </div>
+    <div class="foot">
+        <ul>
+            <li><h5>Pages</h5></li>
+            <li>About us</li>
+            <li>Categories</li>
+            <li>Shop</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="foot">
+        <ul>
+            <li><h5>Resource</h5></li>
+            <li>FAQ</li>
+            <li>Reviews</li>
+            <li>Blogs</li>
+            <li>Return Policy</li>
+        </ul>
+    </div>
+    <div class="foot">
+        <ul><li><h5>Utilities</h5></li>
+        <li>Style Guide</li>
+        <li>Error 404</li>
+        <li>Licensing</li>
+        <li>Changelog</li>
+        </ul>
+    </div>
+    <div class="foot">
+        <ul>
+            <li><h5>Connected</h5></li>
+            <li> Instagram</li>
+            <li>Facebook</li>
+            <li>YouTube</li>
+            <li>Twitter</li>
+        </ul>
+    </div>
+    <div class="foot2">
+        <h5>Subscribe</h5>
+        <form action="">
+            <input type="text" placeholder="Your Name"><br>
+            <input type="text" placeholder="your Mail"><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</footer>
 </body>
 </html>
